@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="PageObject.Test99GuruLoginWithPageFactory">
+        <methods>
+          <include name="test_Home_Page_Appear_Correct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- PageObject.Test99GuruLoginWithPageFactory -->
+      <class name="PageObject.RunTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="OpenHome"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- PageObject.RunTest -->
+      <class name="com.koly.home.NewTest">
+        <methods>
+          <include name="afterMethod"/>
+          <include name="searchLap"/>
+          <include name="selectComp"/>
+          <include name="gotoUrl"/>
+          <include name="beforeMethod"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.koly.home.NewTest -->
+      <class name="com.koly.home.AmazonTestNG">
+        <methods>
+          <include name="typeLaptops"/>
+          <include name="beforeTest"/>
+          <include name="SelectComp"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- com.koly.home.AmazonTestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

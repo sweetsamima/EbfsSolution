@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="40156" started-at="2016-03-01T00:38:18Z" finished-at="2016-03-01T00:38:58Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="40156" started-at="2016-03-01T00:38:18Z" finished-at="2016-03-01T00:38:58Z">
+      <class name="PageObject.RunTest">
+        <test-method status="PASS" signature="OpenBrowser()[pri:0, instance:PageObject.RunTest@71be98f5]" name="OpenBrowser" is-config="true" duration-ms="6825" started-at="2016-02-29T19:38:18Z" finished-at="2016-02-29T19:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenBrowser -->
+        <test-method status="PASS" signature="OpenHome()[pri:0, instance:PageObject.RunTest@71be98f5]" name="OpenHome" is-config="true" duration-ms="3652" started-at="2016-02-29T19:38:24Z" finished-at="2016-02-29T19:38:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHome -->
+        <test-method status="PASS" signature="SearchVali()[pri:0, instance:PageObject.RunTest@71be98f5]" name="SearchVali" duration-ms="8269" started-at="2016-02-29T19:38:28Z" finished-at="2016-02-29T19:38:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchVali -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PageObject.RunTest@71be98f5]" name="tearDown" is-config="true" duration-ms="238" started-at="2016-02-29T19:38:36Z" finished-at="2016-02-29T19:38:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchVali status=SUCCESS method=RunTest.SearchVali()[pri:0, instance:PageObject.RunTest@71be98f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="OpenHome()[pri:0, instance:PageObject.RunTest@71be98f5]" name="OpenHome" is-config="true" duration-ms="1213" started-at="2016-02-29T19:38:37Z" finished-at="2016-02-29T19:38:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OpenHome -->
+        <test-method status="PASS" signature="LogInUse()[pri:0, instance:PageObject.RunTest@71be98f5]" name="LogInUse" duration-ms="18088" started-at="2016-02-29T19:38:38Z" finished-at="2016-02-29T19:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogInUse -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:PageObject.RunTest@71be98f5]" name="tearDown" is-config="true" duration-ms="53" started-at="2016-02-29T19:38:56Z" finished-at="2016-02-29T19:38:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogInUse status=SUCCESS method=RunTest.LogInUse()[pri:0, instance:PageObject.RunTest@71be98f5] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:PageObject.RunTest@71be98f5]" name="CloseBrowser" is-config="true" duration-ms="1797" started-at="2016-02-29T19:38:56Z" finished-at="2016-02-29T19:38:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- PageObject.RunTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
